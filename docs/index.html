@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sorting Hat Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Music Controls -->
+  <div class="music-controls">
+    <button id="muteBtn">🔊</button>
+    <button id="volumeDown">🔉</button>
+    <button id="volumeUp">🔊</button>
+  </div>
+
+  <div class="container">
+    <h1>⚡ Welcome to the Hogwarts Sorting Hat Quiz ⚡</h1>
+    <div class="sorting-hat" id="sortingHat">
+      <img src="assets/hat.png" alt="Sorting Hat" style="width: 120px; height: auto; filter: drop-shadow(2px 2px 8px rgba(0,0,0,0.8));">
+    </div>
+    <button id="startBtn">Start Quiz</button>
+    <div id="quiz"></div>
+    <div id="result"></div>
+  </div>
+
+  <!-- Background Music -->
+  <audio id="bgMusic" loop>
+    <source src="assets/bg-music.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
